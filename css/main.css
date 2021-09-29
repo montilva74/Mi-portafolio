@@ -274,7 +274,7 @@ a {
 a:hover, a:focus, a:active {
   text-decoration: none;
   border: none;
-  color: #2E8B57;
+  color: #e67e22;;
 }
 
 /* MEDIA */
@@ -466,7 +466,7 @@ body {
 
 /* Backgrounds */
 .bg-1 {
-  background-image: url('../images/floor.jpg');
+  background-image: url('../images/lights.jpg');
 }
 
 /* Header */
@@ -507,7 +507,7 @@ body {
   padding: 30px 20px;
   background: #fff;
   border: 1px solid #f1f1f1;
-  box-shadow: 0px 6px #2E8B57;
+  box-shadow: 0px 6px #e67e22;
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -549,7 +549,7 @@ body {
 
 .tab a.active {
   padding-top: 10px;
-  color: #2E8B57;
+  color: #e67e22;
 }
 
 .tab a i {
@@ -854,7 +854,7 @@ body {
 .project-container {
   max-width: 240px;
   border-radius: 5px;
-  background-color: #5cb85c;
+  background-color: white;
   color: #fff;
   cursor: pointer;
   box-shadow: 2px 2px 5px 3px #5cb85c27;
@@ -1019,6 +1019,9 @@ input[type=text], .project_description, input[type=url] {
 
 .carrot>span {
   background-color: #e67e22;
+}
+.info h4.carrot-text {
+  color: #e67e22;
 }
 
 .wisteria>span {
@@ -1295,4 +1298,29 @@ tbody {
   display: table-row-group;
   vertical-align: middle;
   display: grid;
+}
+
+.fab, .fas {
+  font-size: 24px;
+  color: white;
+  margin: 10px;
+}
+.meter {
+  height: 45px;
+}
+#resume .carrot span span {
+  display: flex;
+  align-items: center;
+}
+#logo h6 {
+  color: #e67e22;
+}
+
+.hobbies{
+  display: flex;
+}
+.label-info {
+  display: block;
+  height: 45px;
+  margin-right: 10px;
 }
