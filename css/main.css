@@ -928,7 +928,7 @@ input[type=text], .project_description, input[type=url] {
 /* The Modal (background) */
 .modal {
 	display:none;
-    position: fixed;
+    position: relative;
     z-index: 1;
     left: 0;
     top: 0;
@@ -946,7 +946,6 @@ input[type=text], .project_description, input[type=url] {
   width: 30%;
   padding-bottom: 20px;
 }
-
 /* The Close Button (x) */
 .close {
     position: absolute;
@@ -1314,6 +1313,8 @@ tbody {
 }
 #logo h6 {
   color: #e67e22;
+
+  font-size: xx-large;
 }
 
 .hobbies{
