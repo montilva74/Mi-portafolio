@@ -25,7 +25,7 @@ $(document).ready( function() {
       $hellologo.slideDown('slow');
 	});	
 function animMeter(){
-    $(".meter > span").each(function() {
+    $(".animate .meter > span").each(function() {
                 $(this)
                     .data("origWidth", $(this).width())
                     .width(0)

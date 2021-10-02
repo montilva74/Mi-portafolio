@@ -395,7 +395,7 @@ span.amp {
 /* For IE 6/7 (trigger hasLayout) */
 /* DEFAULT MOBILE STYLE */
 body {
-  width: 92%;
+  width: 100%;
   margin: 0 auto
 }
 
@@ -783,7 +783,7 @@ body {
   font-size: 90%;
   font-weight: 500;
   line-height: 1;
-  color: #ffffff;
+  color: #0e0d0d;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
@@ -791,12 +791,12 @@ body {
 }
 
 .label-info {
-  background-color: #444445E6;
+  background-color: #a4a4aae6;
 }
 
 .label-info[href]:hover,
 .label-info[href]:focus {
-  background-color: #31b0d5;
+  background-color: #4299e1;
 }
 
 .label[href]:hover,
@@ -1017,7 +1017,7 @@ input[type=text], .project_description, input[type=url] {
 }
 
 .carrot>span {
-  background-color: #e67e22;
+  background-color: #4299e1;
 }
 .info h4.carrot-text {
   color: #e67e22;
@@ -1040,7 +1040,7 @@ input[type=text], .project_description, input[type=url] {
 }
 
 .asbestos>span {
-  background-color: #7f8c8d;
+  background-color: #8d9596;
 }
 
 .nostripes>span>span, .nostripes>span:after {
@@ -1140,7 +1140,7 @@ Change widths as necessary
 }
 
 .progress-item .progress-bar {
-  background-color: #ff5722;
+  background-color: #eb5629;
   box-shadow: none;
   text-align: right;
 }
@@ -1317,11 +1317,15 @@ tbody {
   font-size: xx-large;
 }
 
-.hobbies{
-  display: flex;
-}
+
 .label-info {
   display: block;
   height: 45px;
   margin-right: 10px;
+  width: 98%;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  
 }
