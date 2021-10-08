@@ -1,0 +1,64 @@
+[data-theme="dark"] {
+    color: #eee;
+}
+
+[data-theme="dark"] #tab-data-wrap {
+    background-color: #111 !important;
+    box-shadow:none
+}
+
+[data-theme="dark"] h2,.name{
+    color: #FBC800;
+}
+
+[data-theme="dark"] h4{
+    color: #8107CC !important;
+}
+
+[data-theme="dark"] span{
+    color: #8107CC;
+    background-color: #111;
+}
+
+[data-theme="dark"] .meter>span>span{
+    margin-left: 0;
+}
+
+[data-theme="dark"] h6{
+    color: #FBC800 !important;
+}
+
+
+[data-theme="dark"] a{
+    color: #8107CC;
+    background-color: #111;
+}
+
+[data-theme="dark"] h3,a{
+    color: white;
+}
+
+[data-theme="dark"] i {
+    color: white !important;
+}
+
+[data-theme="dark"] .projects {
+    background-color: white;
+}
+
+[data-theme="dark"] .modal>form {
+    background-color: #111 !important;
+    color: white !important;
+}
+
+[data-theme="dark"] .project_details{
+    color: white;
+}
+
+
+
+
+
+
+
+

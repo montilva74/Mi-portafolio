@@ -469,6 +469,10 @@ body {
   background-image: url('../images/lights.jpg');
 }
 
+.bg-dark {
+  background-color: black;
+}
+
 /* Header */
 #header {
   margin-bottom: 2em;
@@ -796,7 +800,7 @@ body {
 
 .label-info[href]:hover,
 .label-info[href]:focus {
-  background-color: #4299e1;
+  background-color: #31b0d5;
 }
 
 .label[href]:hover,
@@ -1256,7 +1260,7 @@ Change widths as necessary
 
   p, h2, h3 {
     orphans: 3;
-    widows: 3
+    widows: 3;
   }
 
   h2, h3 {
@@ -1324,8 +1328,5 @@ tbody {
   margin-right: 10px;
   width: 98%;
   margin-bottom: 5px;
-}
-
-@media screen and (max-width: 600px) {
-  
+  border: 1px solid white;
 }

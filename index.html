@@ -19,6 +19,7 @@
   <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-144x144-precomposed.png">
   <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
+  <link rel="stylesheet" href="./css/dark-mode.css">
   <link rel="stylesheet" href="css/normalize.min.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -28,6 +29,7 @@
   <script>document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
   <script src="js/vendor/jquery.hashchange.min.js"></script>
   <script src="js/vendor/jquery.easytabs.min.js"></script>
+  
   <script src="js/main.js"></script>
 
 </head>
@@ -96,8 +98,7 @@
                 </div>
                 <div class="info">
                   <h2>
-                    <p></p>
-                    Alba Montilva
+                    <p class="name">Alba Montilva</p>
                   </h2>
                   <h4 class="carrot-text">
                     Web Developer
@@ -129,6 +130,10 @@
                     </li>
                   </ul>
                 </div>
+                <div class="form-check form-switch">
+                  <input type="checkbox" class="form-check-input" id="darkSwitch" />
+                  <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+                </div>
               </div>
               <div class="break">
               </div>
@@ -138,7 +143,7 @@
                     <i class="fas fa-envelope-open-text"></i>
                     <div class="item-data">
                       <h3>
-                        <a href="#">
+                        <a>
                           Email
                         </a>
                       </h3>
@@ -307,13 +312,19 @@
                   <div class="project-img-container" onclick="document.getElementById('modal-wrapper').style.display='block'">
                     <img src="./images/banner-bancolombia.jpg" style="height: 200px;" alt="project image">
                   </div>
-                  <p class="project-title"><a target="_blank" href="https://banner-bancolombia.vercel.app/" style="text-decoration: none;" >Banner Bancolombia</a></p>
+                  <p class="project-title"><a class="projects" target="_blank" href="https://banner-bancolombia.vercel.app/" style="text-decoration: none;" >Banner Bancolombia</a></p>
                 </div>
                 <div class="project-container">
                   <div class="project-img-container" onclick="document.getElementById('modal-wrapper2').style.display='block'">
                     <img src="./images/petlove.jpg" style="height: 200px;" alt="project image">
                   </div>
-                  <p class="project-title"><a target="_blank" href="https://petlove-gz6hx1pn2-montilva74.vercel.app/" style="text-decoration: none;">Petlove</a></p>
+                  <p class="project-title"><a class="projects" target="_blank" href="https://petlove-gz6hx1pn2-montilva74.vercel.app/" style="text-decoration: none;">Petlove</a></p>
+                </div>
+                <div class="project-container">
+                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper3').style.display='block'">
+                    <img src="./images/landing.jpg" style="width: 220px; height: 200px;" alt="project image">
+                  </div>
+                  <p class="project-title"><a class="projects" target="_blank" href="https://montilva74.github.io/tp-codoacodo/" style="text-decoration: none;">Landing Page</a></p>
                 </div>
               </div>
 
@@ -348,6 +359,21 @@
                   </div>
                 </form>
               </div>
+              <div id="modal-wrapper3" class="modal">
+                <form class="modal-content animate">
+                  <div class="imgcontainer">
+                    <span onclick="document.getElementById('modal-wrapper3').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                    <img src="./images/lights.jpg" alt="project" class="avatar">
+                    <h1 class="project_details" style="text-align:center">Detalles del proyecto</h1>
+                  </div>
+
+                  <div class="container">
+                    <input type="text" placeholder="Landing Page" name="uname" readonly>
+                    <textarea class="project_description" rows="3" placeholder="Project Description" readonly>Página estática realizada para la entrega de un proyecto en el programa Codo a Codo 4.0.  </textarea>
+                    <input type="text" placeholder="HTML, CSS, Bootstrap" readonly>
+                  </div>
+                </form>
+              </div>
             </section>
           </div>
           <!-- End Projects tab -->
@@ -355,6 +381,7 @@
           <!-- ----------------------------------------------------------------------------------- -->
         </div>
       </div>
+      <script src="js/dark-mode-switch.js"></script>
 </body>
 
 </html>
