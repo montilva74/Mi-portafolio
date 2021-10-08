@@ -794,10 +794,6 @@ body {
   border-radius: .25em;
 }
 
-.label-info {
-  background-color: #a4a4aae6;
-}
-
 .label-info[href]:hover,
 .label-info[href]:focus {
   background-color: #31b0d5;
@@ -1328,5 +1324,6 @@ tbody {
   margin-right: 10px;
   width: 98%;
   margin-bottom: 5px;
+  background-color: #a4a4aae6;
   border: 1px solid white;
 }
